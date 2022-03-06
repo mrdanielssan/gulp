@@ -1,0 +1,8 @@
+@import 'common/colors';
+@import 'mixins/font-face';
+
+@include font-face('RobotoThin', 'Roboto-Thin');
+
+body {
+  font-family: 'RobotoThin', sans-serif;
+}
